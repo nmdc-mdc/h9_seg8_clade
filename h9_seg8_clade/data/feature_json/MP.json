@@ -1,0 +1,1832 @@
+{
+    "siteList": [
+        "95",
+        "142",
+        "158",
+        "222",
+        "224",
+        "242",
+        "250",
+        "10",
+        "12",
+        "13",
+        "16",
+        "18",
+        "20",
+        "21",
+        "31",
+        "42",
+        "50",
+        "82"
+    ],
+    "cladeList": [
+        "1",
+        "2",
+        "3",
+        "3.1",
+        "3.10",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5",
+        "3.6",
+        "3.7",
+        "3.8",
+        "3.9"
+    ],
+    "cdsList": [
+        "M1",
+        "M2"
+    ],
+    "cdsSite": {
+        "M1": [
+            "95",
+            "142",
+            "158",
+            "222",
+            "224",
+            "242",
+            "250"
+        ],
+        "M2": [
+            "10",
+            "12",
+            "13",
+            "16",
+            "18",
+            "20",
+            "21",
+            "31",
+            "42",
+            "50",
+            "82"
+        ]
+    },
+    "barData": [
+        {
+            "clade": "prototype",
+            "site": "95",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "prototype",
+            "site": "142",
+            "amino": "V",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "prototype",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "prototype",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "prototype",
+            "site": "224",
+            "amino": "S",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "prototype",
+            "site": "242",
+            "amino": "K",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "prototype",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "prototype",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "prototype",
+            "site": "12",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "prototype",
+            "site": "13",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "prototype",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "prototype",
+            "site": "18",
+            "amino": "K",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "prototype",
+            "site": "20",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "prototype",
+            "site": "21",
+            "amino": "D",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "prototype",
+            "site": "31",
+            "amino": "S",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "prototype",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "prototype",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "prototype",
+            "site": "82",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "1",
+            "site": "95",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "1",
+            "site": "142",
+            "amino": "V",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "1",
+            "site": "158",
+            "amino": "H",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "1",
+            "site": "222",
+            "amino": "Q",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "1",
+            "site": "224",
+            "amino": "S",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "1",
+            "site": "242",
+            "amino": "K",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "1",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "1",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "1",
+            "site": "12",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "1",
+            "site": "13",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "1",
+            "site": "16",
+            "amino": "G",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "1",
+            "site": "18",
+            "amino": "R",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "1",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "1",
+            "site": "21",
+            "amino": "D",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "1",
+            "site": "31",
+            "amino": "S",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "1",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "1",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "1",
+            "site": "82",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "2",
+            "site": "95",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "2",
+            "site": "142",
+            "amino": "V",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "2",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "2",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "2",
+            "site": "224",
+            "amino": "S",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "2",
+            "site": "242",
+            "amino": "K",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "2",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        
+        {
+            "clade": "2",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "2",
+            "site": "12",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "2",
+            "site": "13",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "2",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "2",
+            "site": "18",
+            "amino": "K",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "2",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "2",
+            "site": "21",
+            "amino": "D",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "2",
+            "site": "31",
+            "amino": "S",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "2",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "2",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "2",
+            "site": "82",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3",
+            "site": "95",
+            "amino": "K",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3",
+            "site": "142",
+            "amino": "G",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3",
+            "site": "224",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3",
+            "site": "242",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3",
+            "site": "12",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3",
+            "site": "13",
+            "amino": "T",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3",
+            "site": "18",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3",
+            "site": "21",
+            "amino": "G",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3",
+            "site": "31",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3",
+            "site": "82",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.1",
+            "site": "95",
+            "amino": "K",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.1",
+            "site": "142",
+            "amino": "G",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.1",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.1",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.1",
+            "site": "224",
+            "amino": "S",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.1",
+            "site": "242",
+            "amino": "K",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.1",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.1",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.1",
+            "site": "12",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.1",
+            "site": "13",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.1",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.1",
+            "site": "18",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.1",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.1",
+            "site": "21",
+            "amino": "D",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.1",
+            "site": "31",
+            "amino": "S",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.1",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.1",
+            "site": "50",
+            "amino": "Y",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.1",
+            "site": "82",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.10",
+            "site": "95",
+            "amino": "K",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.10",
+            "site": "142",
+            "amino": "G",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.10",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.10",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.10",
+            "site": "224",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.10",
+            "site": "242",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.10",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.10",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.10",
+            "site": "12",
+            "amino": "K",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.10",
+            "site": "13",
+            "amino": "T",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.10",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.10",
+            "site": "18",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.10",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.10",
+            "site": "21",
+            "amino": "G",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.10",
+            "site": "31",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.10",
+            "site": "42",
+            "amino": "M",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.10",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.10",
+            "site": "82",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.2",
+            "site": "95",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.2",
+            "site": "142",
+            "amino": "G",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.2",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.2",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.2",
+            "site": "224",
+            "amino": "S",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.2",
+            "site": "242",
+            "amino": "K",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.2",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.2",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.2",
+            "site": "12",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.2",
+            "site": "13",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.2",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.2",
+            "site": "18",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.2",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.2",
+            "site": "21",
+            "amino": "D",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.2",
+            "site": "31",
+            "amino": "S",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.2",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.2",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.2",
+            "site": "82",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.3",
+            "site": "95",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.3",
+            "site": "142",
+            "amino": "G",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.3",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.3",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.3",
+            "site": "224",
+            "amino": "S",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.3",
+            "site": "242",
+            "amino": "K",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.3",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.3",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.3",
+            "site": "12",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.3",
+            "site": "13",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.3",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.3",
+            "site": "18",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.3",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.3",
+            "site": "21",
+            "amino": "D",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.3",
+            "site": "31",
+            "amino": "S",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.3",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.3",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.3",
+            "site": "82",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.4",
+            "site": "95",
+            "amino": "K",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.4",
+            "site": "142",
+            "amino": "G",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.4",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.4",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.4",
+            "site": "224",
+            "amino": "S",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.4",
+            "site": "242",
+            "amino": "K",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.4",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.4",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.4",
+            "site": "12",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.4",
+            "site": "13",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.4",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.4",
+            "site": "18",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.4",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.4",
+            "site": "21",
+            "amino": "D",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.4",
+            "site": "31",
+            "amino": "S",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.4",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.4",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.4",
+            "site": "82",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.5",
+            "site": "95",
+            "amino": "K",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.5",
+            "site": "142",
+            "amino": "G",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.5",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.5",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.5",
+            "site": "224",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.5",
+            "site": "242",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.5",
+            "site": "250",
+            "amino": "S",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.5",
+            "site": "10",
+            "amino": "P",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.5",
+            "site": "12",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.5",
+            "site": "13",
+            "amino": "T",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.5",
+            "site": "16",
+            "amino": "V",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.5",
+            "site": "18",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.5",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.5",
+            "site": "21",
+            "amino": "V",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.5",
+            "site": "31",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.5",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.5",
+            "site": "50",
+            "amino": "Y",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.5",
+            "site": "82",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.6",
+            "site": "95",
+            "amino": "K",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.6",
+            "site": "142",
+            "amino": "G",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.6",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.6",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.6",
+            "site": "224",
+            "amino": "S",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.6",
+            "site": "242",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.6",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.6",
+            "site": "10",
+            "amino": "P",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.6",
+            "site": "12",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.6",
+            "site": "13",
+            "amino": "T",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.6",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.6",
+            "site": "18",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.6",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.6",
+            "site": "21",
+            "amino": "G",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.6",
+            "site": "31",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.6",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.6",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.6",
+            "site": "82",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.7",
+            "site": "95",
+            "amino": "K",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.7",
+            "site": "142",
+            "amino": "G",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.7",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.7",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.7",
+            "site": "224",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.7",
+            "site": "242",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.7",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.7",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.7",
+            "site": "12",
+            "amino": "R",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.7",
+            "site": "13",
+            "amino": "T",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.7",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.7",
+            "site": "18",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.7",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.7",
+            "site": "21",
+            "amino": "G",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.7",
+            "site": "31",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.7",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.7",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.7",
+            "site": "82",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.8",
+            "site": "95",
+            "amino": "K",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.8",
+            "site": "142",
+            "amino": "G",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.8",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.8",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.8",
+            "site": "224",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.8",
+            "site": "242",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.8",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.8",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.8",
+            "site": "12",
+            "amino": "K",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.8",
+            "site": "13",
+            "amino": "T",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.8",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.8",
+            "site": "18",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.8",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.8",
+            "site": "21",
+            "amino": "G",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.8",
+            "site": "31",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.8",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.8",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.8",
+            "site": "82",
+            "amino": "N",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.9",
+            "site": "95",
+            "amino": "K",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.9",
+            "site": "142",
+            "amino": "G",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.9",
+            "site": "158",
+            "amino": "Q",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.9",
+            "site": "222",
+            "amino": "H",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.9",
+            "site": "224",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.9",
+            "site": "242",
+            "amino": "N",
+            "value": 2,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.9",
+            "site": "250",
+            "amino": "R",
+            "value": 1,
+            "cds": "M1"
+        },
+        {
+            "clade": "3.9",
+            "site": "10",
+            "amino": "L",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.9",
+            "site": "12",
+            "amino": "K",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.9",
+            "site": "13",
+            "amino": "T",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.9",
+            "site": "16",
+            "amino": "E",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.9",
+            "site": "18",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.9",
+            "site": "20",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.9",
+            "site": "21",
+            "amino": "G",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.9",
+            "site": "31",
+            "amino": "N",
+            "value": 2,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.9",
+            "site": "42",
+            "amino": "I",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.9",
+            "site": "50",
+            "amino": "C",
+            "value": 1,
+            "cds": "M2"
+        },
+        {
+            "clade": "3.9",
+            "site": "82",
+            "amino": "S",
+            "value": 2,
+            "cds": "M2"
+        }
+    ]
+}
