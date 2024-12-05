@@ -63,21 +63,25 @@ BLAST version 2.16 is required. Since conda does not support direct installation
    ln -s /root/miniconda3/bin/mafft /bin/
    ```
 
-### Step 3: Install Python Modules
+### Step 3: Install Python and Required Modules
 
-For data analysis and bioinformatics scripting, install the following Python modules:
+To ensure compatibility with the H9 influenza sequence clade and segment classification software, Python version 3.11 is required. Below are the steps to install Python and necessary modules using Miniconda.
+1. **Install Python 3.11**
+    ```bash
+   conda create --name h9_influenza_env python=3.11
+   ```
 
-1. **Pandas**
+2. **Pandas**
    ```bash
    conda install pandas
    ```
 
-2. **Biopython**
+3. **Biopython**
    ```bash
    conda install -c conda-forge biopython=1.84
    ```
 
-3. **Bio**
+4. **Bio**
    ```bash
    conda install Bio
    ```
