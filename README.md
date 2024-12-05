@@ -20,7 +20,7 @@ Using `conda`, you can easily install bioinformatics tools from the Bioconda cha
 
 #### 1. Install BLAST
 
-BLAST version 2.16 is required. Since conda does not support direct installation of version 2.16, please download the Linux version of BLAST 2.16 from the NCBI FTP server. Alternatively, the BLAST 2.16 package located in the BLAST_2.16 directory can be used.
+BLAST version 2.16 is required. Since conda does not support direct installation of version 2.16, please download the Linux version of BLAST 2.16 from the NCBI FTP server.
 
 ##### Steps to Install:
 
@@ -50,13 +50,8 @@ BLAST version 2.16 is required. Since conda does not support direct installation
 
    This command should display BLAST 2.16 if installed correctly.
 
-#### 2. Install IQ-TREE
 
-   ```bash
-   conda install bioconda::iqtree
-   ln -s /root/miniconda3/bin/iqtree /bin/
-   ```
-#### 3. Install MAFFT
+#### 2. Install MAFFT
 
    ```bash
    conda install bioconda::mafft
@@ -92,7 +87,6 @@ After installation, verify that each tool is correctly set up by running its com
 
 ```bash
 blastn -h
-iqtree -h
 mafft -h
 ```
 
@@ -113,7 +107,6 @@ If the commands run successfully and display help options, your setup is complet
    python = "/root/software/miniconda3/envs/py39/bin/python3.9"      # Path to Python executable
    blastn = "/root/software/ncbi-blast-2.16.0+/bin/blastn"         # Path to BLASTN executable
    mafft = "/root/software/miniconda3/bin/mafft"           # Path to MAFFT executable
-   iqtree = "/root/software/miniconda3/bin/iqtree"         # Path to IQ-TREE executable
    ```
 
 ### Step 2: Run the Script
@@ -123,13 +116,13 @@ If the commands run successfully and display help options, your setup is complet
 If you want to classify by segment clade only, use the following command:
 
 ```bash
-python "path_to/h9_seg8_clade/script/h9_clade_seg8.py" -i "path_to/input_file" -n none
+python "path_to/h9_seg8_clade/script/h9_clade_seg8.py" -i "path_to/input_file" -n none -o "path_to/output_directory"
 ```
 
 **Example:**
 
 ```bash
-python "/root/work/h9_seg8_clade/script/h9_clade_seg8.py" -i "/h9_seg8_clade/script/example/example.fasta" -n none
+python "/root/work/h9_seg8_clade/script/h9_clade_seg8.py" -i "/h9_seg8_clade/script/example/example.fasta" -n none -o "/root/output"
 ```
 
 #### Mode 2: Segment Clade and Genotype Classification
@@ -137,13 +130,13 @@ python "/root/work/h9_seg8_clade/script/h9_clade_seg8.py" -i "/h9_seg8_clade/scr
 If you want to classify by both segment clade and genotype, use this command:
 
 ```bash
-python "path_to/h9_seg8_clade/script/h9_clade_seg8.py" -i "path_to/input_file(s)" -n "isolate_name(s)"
+python "path_to/h9_seg8_clade/script/h9_clade_seg8.py" -i "path_to/input_file(s)" -n "isolate_name(s)" -o "path_to/output_directory"
 ```
 
 **Example:**
 
 ```bash
-python "/root/work/h9_seg8_clade/script/h9_clade_seg8.py" -i "/h9_seg8_clade/script/example/isolate_1.fasta,/h9_seg8_clade/script/example/isolate_2.fasta" -n "isolate_1,isolate_2"
+python "/root/work/h9_seg8_clade/script/h9_clade_seg8.py" -i "/h9_seg8_clade/script/example/isolate_1.fasta,/h9_seg8_clade/script/example/isolate_2.fasta" -n "isolate_1,isolate_2" -o "/root/output"
 ```
 
 In this example, the input consists of multiple isolates separated by commas. The `-n` option specifies the names of each isolate in the same order as the input files.
@@ -152,7 +145,7 @@ In this example, the input consists of multiple isolates separated by commas. Th
 
 ## Output
 
-After running the classification script, navigate to the `path_to/h9_seg8_clade/script/output/` directory to find the results.
+After running the classification script, navigate to the `path_to/output_directory` directory to find the results.
 
 ### Mode 1: Segment Clade Classification Only
 
