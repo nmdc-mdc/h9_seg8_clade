@@ -72,6 +72,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-n', '--input_isolate_name', required=True, help='Input isolate name')
     parser.add_argument('-w', '--work_dir', required=True, help='work_dir')
+    parser.add_argument('-output', '--output', required=True, help='output')
     args = parser.parse_args()
     return args
 
@@ -80,7 +81,8 @@ if __name__ == '__main__':
     params = parse_args()
     isolate_name = params.input_isolate_name
     work_dir = params.work_dir
-    output_dir = f"{work_dir}/h9_seg8_clade/script/output/{isolate_name}"
+    output = params.output
+    output_dir = os.path.join(output, isolate_name)
     os.makedirs(output_dir)
     with open(f"{work_dir}/h9_seg8_clade/script/parse_input/parse_output/{isolate_name}/seq_name_dict.json") as file:
         seq_name_dict = json.load(file)
