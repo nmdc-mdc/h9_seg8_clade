@@ -61,6 +61,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--input_file', required=True, help='Input file')
     parser.add_argument('-n', '--input_isolate_name', required=True, help='Input isolate name')
+    parser.add_argument('-o', '--output_directory', required=True, help='output directory')
     args = parser.parse_args()
     return args
 
@@ -84,15 +85,15 @@ def main(work_dir, input_file, python, input_isolate_name, blastn_path,mafft_pat
 
 if __name__ == "__main__":
     # the path of the work dir
-    work_dir = "/root/work"
+    work_dir = "/data7/sunxiuqiang/virus_database"
     # the path of the python
-    python = "/root/software/miniconda3/envs/py39/bin/python3.9"
+    python = "/data/homebackup/sunxiuqiang/tools/miniconda3/bin/python"
     # the path of the blastn
-    blastn_p = "/root/software/ncbi-blast-2.16.0+/bin/blastn"
+    blastn_p = "/data/homebackup/sunxiuqiang/tools/blast/bin/blastn"
     # the path of the mafft
-    mafft = "/root/software/miniconda3/bin/mafft"
-    # the path of the iqtree
-    iqtree = "/root/software/miniconda3/bin/iqtree"
+    mafft = "/data/homebackup/sunxiuqiang/tools/mafft/bin/mafft"
+
+
 
     params = parse_args()
     # store the input fasta path into list
@@ -102,7 +103,7 @@ if __name__ == "__main__":
     input_isolate_name = params.input_isolate_name.split(
         ",") if ',' in params.input_isolate_name else [
         params.input_isolate_name]
-
+    output_path = params.output_directory
     # store the modified name
     input_isolate_name_modify = []
     # 生成毒株名对应的seg序列的字典
@@ -139,10 +140,6 @@ if __name__ == "__main__":
         shutil.rmtree(seq_vari_work)
     os.makedirs(seq_vari_work)
 
-    output_path = f"{work_dir}/h9_seg8_clade/script/output"
-    if os.path.exists(output_path):
-        shutil.rmtree(output_path)
-    os.makedirs(output_path)
 
     python_list = []
     work_dir_list = []
