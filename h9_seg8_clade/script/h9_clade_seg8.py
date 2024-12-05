@@ -50,9 +50,9 @@ def seq_vari_new_vari(work_dir, python, input_isolate_name):
     print("\n----------------- seq_vari_new_vari finished! ------------------\n")
 
 
-def generate_output(work_dir, python, input_isolate_name):
+def generate_output(work_dir, python, input_isolate_name,output_file):
     script = f"{work_dir}/h9_seg8_clade/script/generate_output.py"
-    cmd = f"{python} {script} -n {input_isolate_name} -w {work_dir}"
+    cmd = f"{python} {script} -n {input_isolate_name} -w {work_dir} -o {output_file}"
     os.system(cmd)
     print("\n----------------- generate_output finished! ------------------\n")
 
@@ -66,7 +66,7 @@ def parse_args():
     return args
 
 
-def main(work_dir, input_file, python, input_isolate_name, blastn_path,mafft_path):
+def main(work_dir, input_file, python, input_isolate_name, blastn_path,mafft_path,output_path):
     input_file = input_file.strip("[").strip("]")
     input_isolate_name = input_isolate_name.strip("[").strip("]")
     parse_input(work_dir, input_file, input_isolate_name, python)
@@ -80,7 +80,7 @@ def main(work_dir, input_file, python, input_isolate_name, blastn_path,mafft_pat
 
     seq_vari_new_vari(work_dir, python, input_isolate_name)
 
-    generate_output(work_dir, python, input_isolate_name)
+    generate_output(work_dir, python, input_isolate_name,output_path)
 
 
 if __name__ == "__main__":
@@ -145,13 +145,15 @@ if __name__ == "__main__":
     work_dir_list = []
     blastn_list = []
     mafft_list = []
+    output_path_list = []
     # multiprocessing to each input fasta file and isolate name
     for i in range(len(input_file)):
         python_list.append(python)
         work_dir_list.append(work_dir)
         blastn_list.append(blastn_p)
         mafft_list.append(mafft)
-    tuples = zip(work_dir_list, input_file, python_list, input_isolate_name_modify, blastn_list,mafft_list)
+        output_path_list.append(output_path)
+    tuples = zip(work_dir_list, input_file, python_list, input_isolate_name_modify, blastn_list,mafft_list,output_path_list)
     with Pool(processes=5) as pool:
         pool.starmap(main, tuples)
 
