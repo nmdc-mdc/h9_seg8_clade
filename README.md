@@ -76,11 +76,6 @@ To ensure compatibility with the H9 influenza sequence clade and segment classif
    conda install -c conda-forge biopython=1.84
    ```
 
-4. **Bio**
-   ```bash
-   conda install Bio
-   ```
-
 ### Verification
 
 After installation, verify that each tool is correctly set up by running its command:
@@ -104,7 +99,7 @@ If the commands run successfully and display help options, your setup is complet
 
    ```python
    work_dir = "/root/work"                   # Replace with the path to the h9_seg8_clade directory
-   python = "/root/software/miniconda3/envs/py39/bin/python3.9"      # Path to Python executable
+   python = "/root/software/miniconda3/envs/py39/bin/python"      # Path to Python executable (Python 3.11 is required)
    blastn = "/root/software/ncbi-blast-2.16.0+/bin/blastn"         # Path to BLASTN executable
    mafft = "/root/software/miniconda3/bin/mafft"           # Path to MAFFT executable
    ```
@@ -146,7 +141,7 @@ In this example, the input consists of multiple isolates separated by commas. Th
 ## Output
 
 After running the classification script, navigate to the `path_to/output_directory` directory to find the results.
-
+[h9_clade_seg8.py](h9_seg8_clade%2Fscript%2Fh9_clade_seg8.py)
 ### Mode 1: Segment Clade Classification Only
 
 For classification by segment clade only, the output will include:
