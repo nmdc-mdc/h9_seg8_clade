@@ -85,13 +85,13 @@ def main(work_dir, input_file, python, input_isolate_name, blastn_path,mafft_pat
 
 if __name__ == "__main__":
     # the path of the work dir
-    work_dir = "/data7/sunxiuqiang/virus_database"
+    work_dir = "/root/work"
     # the path of the python
-    python = "/data/homebackup/sunxiuqiang/tools/miniconda3/bin/python"
+    python = "/root/software/miniconda3/envs/py39/bin/python"
     # the path of the blastn
-    blastn_p = "/data/homebackup/sunxiuqiang/tools/blast/bin/blastn"
+    blastn_p = "/root/software/ncbi-blast-2.16.0+/bin/blastn"
     # the path of the mafft
-    mafft = "/data/homebackup/sunxiuqiang/tools/mafft/bin/mafft"
+    mafft = "/root/software/miniconda3/bin/mafft"
 
 
 
@@ -167,8 +167,8 @@ if __name__ == "__main__":
                               low_memory=False,
                               index_col=False)
     df_genotype = df_genotype.astype(str)
-    output_json_path = f"{work_dir}/h9_seg8_clade/script/output/cladeRresultJson.json"
-    output_no_pass_file = f"{work_dir}/h9_seg8_clade/script/output/no_pass_number.json"
+    output_json_path = f"{output_path}/cladeRresultJson.json"
+    output_no_pass_file = f"{output_path}/no_pass_number.json"
     no_pass_file = {}
 
     filter_results = os.listdir(filter_result_path)
