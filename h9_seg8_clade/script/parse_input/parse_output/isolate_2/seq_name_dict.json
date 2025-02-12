@@ -1,0 +1,34 @@
+{
+    "_0_": {
+        "oringin_name": "KX867829.1 Influenza A virus (A/swine/Jiangsu/C1/2008(H9N2)) segment 8 nuclear export protein (NEP) and nonstructural protein 1 (NS1) genes, complete cds",
+        "name": "KX867829.1"
+    },
+    "_1_": {
+        "oringin_name": "KX867828.1 Influenza A virus (A/swine/Jiangsu/C1/2008(H9N2)) segment 7 matrix protein 2 (M2) and matrix protein 1 (M1) genes, complete cds",
+        "name": "KX867828.1"
+    },
+    "_2_": {
+        "oringin_name": "KX867827.1 Influenza A virus (A/swine/Jiangsu/C1/2008(H9N2)) segment 6 neuraminidase (NA) gene, complete cds",
+        "name": "KX867827.1"
+    },
+    "_3_": {
+        "oringin_name": "KX867826.1 Influenza A virus (A/swine/Jiangsu/C1/2008(H9N2)) segment 5 nucleocapsid protein (NP) gene, complete cds",
+        "name": "KX867826.1"
+    },
+    "_4_": {
+        "oringin_name": "KX867825.1 Influenza A virus (A/swine/Jiangsu/C1/2008(H9N2)) segment 4 hemagglutinin (HA) gene, complete cds",
+        "name": "KX867825.1"
+    },
+    "_5_": {
+        "oringin_name": "KX867824.1 Influenza A virus (A/swine/Jiangsu/C1/2008(H9N2)) segment 3 polymerase PA (PA) gene, complete cds",
+        "name": "KX867824.1"
+    },
+    "_6_": {
+        "oringin_name": "KX867823.1 Influenza A virus (A/swine/Jiangsu/C1/2008(H9N2)) segment 2 polymerase PB1 (PB1) gene, complete cds",
+        "name": "KX867823.1"
+    },
+    "_7_": {
+        "oringin_name": "KX867822.1 Influenza A virus (A/swine/Jiangsu/C1/2008(H9N2)) segment 1 polymerase PB2 (PB2) gene, complete cds",
+        "name": "KX867822.1"
+    }
+}

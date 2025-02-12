@@ -7,102 +7,82 @@ This software is designed for classifying H9 influenza sequences into specific c
 
 ## Environment Setup Guide
 
-This guide provides step-by-step instructions to set up essential bioinformatics tools using Miniconda.
+This guide provides step-by-step instructions to set up essential bioinformatics tools using Anaconda.
 
-### Step 1: Download Miniconda
+### Step 1: Download and install Anaconda
 
-1. Visit the [Miniconda Documentation](https://docs.anaconda.com/free/miniconda/) to find the latest version suitable for your operating system.
-2. Download and install Miniconda by following the instructions on the website.
+1. Visit the [Anaconda](https://www.anaconda.com/download) to find the latest version suitable for your operating system.
+2. Download and install Anaconda by following the instructions on the website.
 
+Download Anaconda
+For Linux users, you can download the latest version of the Anaconda installer script via the command line using the wget command. Please note that the version number in the command below (e.g., latest-version) may need to be adjusted according to the latest released version.
+  ```bash
+   wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh 
+  ```
+Install Anaconda3
+  ```bash
+   bash Anaconda3-2024.10-1-Linux-x86_64.sh  
+  ```
+Initialize Anaconda
+  ```bash
+  export PATH="/Path/anaconda3/bin:$PATH"
+  source ~/.bashrc  
+  ```
 ### Step 2: Install Bioinformatics Tools
 
-Using `conda`, you can easily install bioinformatics tools from the Bioconda channel. After each installation, create a symbolic link to make the tool accessible from any directory.
+#### Option 1: Using setup.sh
 
-#### 1. Install BLAST
+Execute the setup.sh script to set up the environment.
 
-BLAST version 2.16 is required. Since conda does not support direct installation of version 2.16, please download the Linux version of BLAST 2.16 from the NCBI FTP server.
+  ```bash[README.md](..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2FGit%2Finflu_seg8%2FREADME.md)
+  bash setup.sh 
+  ```
+#### Option 2: Using environment.yml
+If the setup.sh script does not work as expected, you can set up the environment using the environment.yml file.
+  ```bash
+  conda env create -f environment.yml 
+  ```
+#### Option 3: Manual installation guide for tools
+If the setup.sh or environment.yml files are not working for you, you can manually install all the required tools. Follow the steps below to set up your environment and install the necessary tools.
 
-##### Steps to Install:
+1. **Install Python 3.11**
+
+    ```bash
+   conda create --name h9-env python=3.11
+   ```
+
+2. **Install tools from conda**
+   ```bash
+   conda activate h9-env
+   conda install pandas
+   conda install -c conda-forge biopython=1.84
+   conda install bioconda::mafft
+   ```
+3. **Install blast**
+
+BLAST version 2.16 is required. Since conda does not support direct installation of version 2.16, please download the Linux version of BLAST 2.16 from the [NCBI FTP server](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.16.0/).
 
 1. Extract the package:
    ```bash
    tar -zxvf ncbi-blast-2.16.0+-x64-linux.tar.gz
    ```
 
-2. Add BLAST to your PATH for easy access from the command line. Replace `/path/to/ncbi-blast-2.16.0+/bin` with the actual path where you extracted the files:
-
+2. Add Blast to h9-env environment
    ```bash
-   export PATH=/path/to/ncbi-blast-2.16.0+/bin:$PATH
+   mv "Path_to/ncbi-blast-2.16.0+/bin/"* "Path_to/anaconda3/envs/h9-env/bin/"
+   export H9_BLAST_PATH="Path_to/anaconda3/envs/h9-env/bin/blastn"
    ```
-
-3. (Optional) To make this change permanent, add the line above to your `~/.bashrc` file:
-
-   ```bash
-   echo 'export PATH=/path/to/ncbi-blast-2.16.0+/bin:$PATH' >> ~/.bashrc
-   source ~/.bashrc
-   ```
-
-4. Verify the installation:
-
-   ```bash
+3. Verify Installation
+    ```bash
    blastn -version
    ```
+## Script Execution
 
-   This command should display BLAST 2.16 if installed correctly.
+### Step 1: Activate the h9-env Environment
 
-
-#### 2. Install MAFFT
-
-   ```bash
-   conda install bioconda::mafft
-   ln -s /root/miniconda3/bin/mafft /bin/
-   ```
-
-### Step 3: Install Python and Required Modules
-
-To ensure compatibility with the H9 influenza sequence clade and segment classification software, Python version 3.11 is required. Below are the steps to install Python and necessary modules using Miniconda.
-1. **Install Python 3.11**
-    ```bash
-   conda create --name h9_influenza_env python=3.11
-   ```
-
-2. **Pandas**
-   ```bash
-   conda install pandas
-   ```
-
-3. **Biopython**
-   ```bash
-   conda install -c conda-forge biopython=1.84
-   ```
-
-### Verification
-
-After installation, verify that each tool is correctly set up by running its command:
-
-```bash
-blastn -h
-mafft -h
-```
-
-If the commands run successfully and display help options, your setup is complete.
-
----
-
-## Script Run
-
-### Step 1: Set Up Paths
-
-1. Open the Python script located at `h9_seg8_clade/script/h9_clade_seg8.py`.
-2. Go to the `if __name__ == "__main__":` section near the end of the script.
-3. Set the paths as follows:
-
-   ```python
-   work_dir = "/root/work"                   # Replace with the path to the h9_seg8_clade directory
-   python = "/root/software/miniconda3/envs/py39/bin/python"      # Path to Python executable (Python 3.11 is required)
-   blastn = "/root/software/ncbi-blast-2.16.0+/bin/blastn"         # Path to BLASTN executable
-   mafft = "/root/software/miniconda3/bin/mafft"           # Path to MAFFT executable
-   ```
+  ```bash
+  conda activate h9-env 
+  ```
 
 ### Step 2: Run the Script
 
@@ -111,13 +91,13 @@ If the commands run successfully and display help options, your setup is complet
 If you want to classify by segment clade only, use the following command:
 
 ```bash
-python "path_to/h9_seg8_clade/script/h9_clade_seg8.py" -i "path_to/input_file" -n none -o "path_to/output_directory"
+python "h9_clade_seg8.py" -i "path_to/input_file" -n none -o "path_to/output_directory"
 ```
 
 **Example:**
 
 ```bash
-python "/root/work/h9_seg8_clade/script/h9_clade_seg8.py" -i "/h9_seg8_clade/script/example/example.fasta" -n none -o "/root/output"
+python "h9_clade_seg8.py" -i "example/example.fasta" -n none -o "output"
 ```
 
 #### Mode 2: Segment Clade and Genotype Classification
@@ -125,13 +105,13 @@ python "/root/work/h9_seg8_clade/script/h9_clade_seg8.py" -i "/h9_seg8_clade/scr
 If you want to classify by both segment clade and genotype, use this command:
 
 ```bash
-python "path_to/h9_seg8_clade/script/h9_clade_seg8.py" -i "path_to/input_file(s)" -n "isolate_name(s)" -o "path_to/output_directory"
+python "h9_clade_seg8.py" -i "path_to/input_file(s)" -n "isolate_name(s)" -o "path_to/output_directory"
 ```
 
 **Example:**
 
 ```bash
-python "/root/work/h9_seg8_clade/script/h9_clade_seg8.py" -i "/h9_seg8_clade/script/example/isolate_1.fasta,/h9_seg8_clade/script/example/isolate_2.fasta" -n "isolate_1,isolate_2" -o "/root/output"
+python "h9_clade_seg8.py" -i "example/isolate_1.fasta,example/isolate_2.fasta" -n "isolate_1,isolate_2" -o "output"
 ```
 
 In this example, the input consists of multiple isolates separated by commas. The `-n` option specifies the names of each isolate in the same order as the input files.
@@ -141,7 +121,7 @@ In this example, the input consists of multiple isolates separated by commas. Th
 ## Output
 
 After running the classification script, navigate to the `path_to/output_directory` directory to find the results.
-[h9_clade_seg8.py](h9_seg8_clade%2Fscript%2Fh9_clade_seg8.py)
+
 ### Mode 1: Segment Clade Classification Only
 
 For classification by segment clade only, the output will include:
